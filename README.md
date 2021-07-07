@@ -15,7 +15,7 @@ The first part of this project is designed to test default mode network models i
 
 Afterwards, masked RSFC maps and their features are used for 3D convolutional neural network model and ordinal logistic regression model training, respectively. 
 1) Ordinal logistic regression model (5-fold cross-validation)
-    R script: OLR.R
+    R script: OLR_Final_Revised.R
 3) 3D convolutional neural network model (training/validation split validation)
     Google Colab script: 3DCNN_Final_DMN.ipynb (change path of files for Basal Ganglia and Motor models)
 
@@ -23,9 +23,9 @@ Models are assessed by their in-sample accuracy and balanced accuracy.
 
 
 ----
-The second part of this project is designed to find DMN role in the association between freezing of gait episode and executive dysfunction. A third cohort (10 PD patients with STN-DBS @ 2 types of DBS stimulation) experiencing DBS-induced changes in executive dysfunction is utilized to test the models from the first part of the project. Models (OLR vs 3D CNN) are assessed by their accuracy and balanced accuracy.
+The second part of this project is designed to find DMN role in the association between freezing of gait episode and executive dysfunction. A third cohort (10 PD patients with STN-DBS) experiencing DBS-induced changes in executive dysfunction is utilized to test the models from the first part of the project. Models (OLR vs 3D CNN) are assessed by their accuracy and balanced accuracy.
 
-R script: OLR.R (Part 2)
+R script: OLR_Final_Revised.R (Part 2)
 Google Colab script: ED_3DCNN_Final_DMN.ipynb (change path of files for Basal Ganglia and Motor models)
 
 ----
